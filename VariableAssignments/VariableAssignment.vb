@@ -8,9 +8,11 @@ Module VariableAssignment
         Dim fruit As String
         Dim count As Integer
         Dim price As Double
-        fruit = "Apple"
+        fruit = "Apples"
         count = 5
         price = 1.99
+        Console.WriteLine("I have " & count & " " & fruit)
+        Console.Read()
 
     End Sub
 
