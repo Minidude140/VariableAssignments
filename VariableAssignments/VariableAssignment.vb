@@ -1,4 +1,8 @@
-﻿Module VariableAssignment
+﻿Option Explicit On
+Option Strict On
+
+
+Module VariableAssignment
 
     Sub Main()
         Dim fruit As String
