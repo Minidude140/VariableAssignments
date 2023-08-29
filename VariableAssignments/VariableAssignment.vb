@@ -10,18 +10,18 @@ Module VariableAssignment
         Dim price As Double
         Dim userInput As String
         Dim userNum As Integer
+        Const TAXRATE As Double = 0.06
+
         fruit = "Apples"
         count = 5
         price = 1.99
+
         Console.WriteLine("I have " & count & " " & fruit)
         userInput = Console.ReadLine()
         Console.WriteLine("You Typed: " & userInput)
         Console.WriteLine($"You Typed: {userInput}")
         'Entropolated string ^^ (Formatted Strings FStrings)
 
-        'Pause for user to press enter
-        'Console.WriteLine("Hit Enter to continue")
-        'Console.Read()
 
         Console.WriteLine("Please enter a number:")
         userInput = Console.ReadLine()
